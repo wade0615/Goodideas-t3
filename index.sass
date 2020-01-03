@@ -1,8 +1,9 @@
 *
-    outline: 1px solid black
+    // outline: 1px solid black
     box-sizing: border-box
 body
     margin: 0
+    background: url(../image/bg-body.jpg)
 h1,h2,h3,p
     margin: 0
     padding: 0
@@ -21,6 +22,7 @@ figure img
 .wrapper
     max-width: 890px
     margin: 0 auto
+    background-color: #316615
 
 header,main,footer,.copyright
     max-width: 855px
@@ -34,13 +36,26 @@ header
         background-size: 47%
     .navbar
         padding: 0
+        background-color: #316615
+        .navbar-toggler
+            background-color: #4A4A4A
         .container
             padding: 0
         .navbar-nav
             width: 100%
             margin: 0
         a
+            padding: .6rem 
             text-align: center
+            color: #DBEAD1
+            background-color: #4A4A4A
+            text-decoration: none
+        a:hover
+            color: #4A4A4A
+            background-color: #DAEAD1
+        a:first-child
+            color: #5B8446
+            background-color: #97B486
 
 main
     height: 1205px
