@@ -36,7 +36,7 @@ header, main, footer, .copyright {
   margin: 0 auto;
 }
 
-header .banner {
+header .logo {
   height: 87px;
   background: #fff url(../image/logo.png) no-repeat 52% 21%;
   background-size: 47%;
@@ -80,6 +80,33 @@ header .navbar a:first-child {
 
 main {
   height: 1205px;
+}
+
+main .banner {
+  position: relative;
+  height: 412px;
+  background: url(../image/gardening1.jpg) no-repeat center center;
+}
+
+main .title {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(74, 74, 74, 0.6);
+}
+
+main .title h2 {
+  padding: 0 20px;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  color: #DBDE94;
+  text-transform: uppercase;
+}
+
+main .title p {
+  padding: 0 18px 8px;
+  font-size: 14px;
+  line-height: 1.9em;
+  color: #FFFFFF;
 }
 
 footer {
