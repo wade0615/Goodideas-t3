@@ -109,6 +109,13 @@ main .title p {
   color: #FFFFFF;
 }
 
+main .title i {
+  border-radius: 50%;
+  font-size: 20px;
+  color: #7F9397;
+  background-color: #fff;
+}
+
 footer {
   height: 165px;
 }
