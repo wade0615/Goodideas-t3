@@ -25,13 +25,13 @@ figure img {
   width: 100%;
 }
 
-.container {
-  width: 890px;
+.wrapper {
+  max-width: 890px;
   margin: 0 auto;
 }
 
 header, main, footer, .copyright {
-  width: 855px;
+  max-width: 855px;
   margin: 0 auto;
 }
 
