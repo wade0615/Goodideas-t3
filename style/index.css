@@ -121,7 +121,21 @@ main .title i {
 }
 
 main .service > div {
+  position: relative;
   padding: 16px;
+}
+
+main .service > div:nth-child(1):before, main .service > div:nth-child(2):before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-right: solid 2px #1b7700;
 }
 
 main .service h3 {
