@@ -138,6 +138,10 @@ main .service > div:nth-child(1):before, main .service > div:nth-child(2):before
   border-right: solid 2px #1b7700;
 }
 
+main .service img {
+  border: solid 2px #ffffff;
+}
+
 main .service h3 {
   color: #DBDE94;
   font-size: 16px;
