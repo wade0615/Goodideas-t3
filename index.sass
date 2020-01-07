@@ -11,7 +11,7 @@ h1,h2,h3,p
 .row
     margin: 0
 
-.col,.col-md,.col-1,.col-2,.col-3,.col-4,.col-sm-4,.col-5,.col-6,.col-7,.col-sm-7,.col-8,.col-9,.col-10,.col-11
+.col,.col-md,.col-1,.col-2,.col-3,.col-4,.col-md-4,.col-5,.col-6,.col-7,.col-md-7,.col-8,.col-9,.col-10,.col-11
     padding: 0
 
 figure
@@ -24,7 +24,12 @@ figure
 figure img
     width: 100%
 
+// @mixin col-md
+//   @media (max-width: 767px)
+//     @content
+
 // 在 width 1200px 時 合板
+// 斷點 720px col-md
 .wrapper
     max-width: 890px
     margin: 0 auto
@@ -35,7 +40,6 @@ header,main,footer,.copyright
     margin: 0 auto
 
 header
-    // height: 133px
     .logo
         height: 87px
         background: #fff url(../image/logo.png) no-repeat 52% 21%
@@ -44,7 +48,7 @@ header
         padding: 0
         background-color: #316615
         .navbar-toggler
-            background-color: #4A4A4A        
+            background-color: #4A4A4A
         .navbar-nav
             width: 100%
             margin: 0
@@ -62,7 +66,7 @@ header
             background-color: #97B486
 
 main
-    height: 1205px
+    // height: 1205px
     .banner
         position: relative
         height: 412px
@@ -113,7 +117,7 @@ main
             font-size: 14px
             line-height: 1.1rem
     .content
-        padding: 24px 19px
+        padding: 24px 19px 32px
         background-color: #fff
         .feature
             position: relative
@@ -128,7 +132,6 @@ main
                 letter-spacing: 0.01em
                 background-color: #DDEAD5
             .case
-                // height: 320px
                 margin-right: 20px
                 img
                     width: 100%
@@ -151,10 +154,31 @@ main
             height: 100%
             top: 0
             left: 0
-            // background-color: red
             border-bottom: solid 2px #EBEAE6
         .tips
-            height: 200px
+            // height: 215px
+            img
+                width: 100%
+            div
+                padding-left: 33px
+                h3
+                    margin-bottom: 28px
+                    padding: 4px 17px 9px
+                    border-bottom: solid 2px #AEC99E
+                    color: #90705A
+                    font-size: 18px
+                    text-transform: uppercase
+                    background-color: #DDEAD5
+                ol
+                    padding-inline-start: 18px
+                    margin: 0
+                li
+                    margin-bottom: 9px
+                    font-size: 12px
+                    letter-spacing: 0.053em
+                    line-height: 3.7ex
+                li:last-child
+                    margin-bottom: 0
 
 footer
     height: 165px

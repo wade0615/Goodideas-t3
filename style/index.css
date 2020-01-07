@@ -17,7 +17,7 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-.col, .col-md, .col-1, .col-2, .col-3, .col-4, .col-sm-4, .col-5, .col-6, .col-7, .col-sm-7, .col-8, .col-9, .col-10, .col-11 {
+.col, .col-md, .col-1, .col-2, .col-3, .col-4, .col-md-4, .col-5, .col-6, .col-7, .col-md-7, .col-8, .col-9, .col-10, .col-11 {
   padding: 0;
 }
 
@@ -80,10 +80,6 @@ header .navbar a:hover {
 header .navbar a:first-child {
   color: #5B8446;
   background-color: #97B486;
-}
-
-main {
-  height: 1205px;
 }
 
 main .banner {
@@ -155,7 +151,7 @@ main .service p {
 }
 
 main .content {
-  padding: 24px 19px;
+  padding: 24px 19px 32px;
   background-color: #fff;
 }
 
@@ -211,8 +207,39 @@ main .content .feature:before {
   border-bottom: solid 2px #EBEAE6;
 }
 
-main .content .tips {
-  height: 200px;
+main .content .tips img {
+  width: 100%;
+}
+
+main .content .tips div {
+  padding-left: 33px;
+}
+
+main .content .tips div h3 {
+  margin-bottom: 28px;
+  padding: 4px 17px 9px;
+  border-bottom: solid 2px #AEC99E;
+  color: #90705A;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #DDEAD5;
+}
+
+main .content .tips div ol {
+  -webkit-padding-start: 18px;
+          padding-inline-start: 18px;
+  margin: 0;
+}
+
+main .content .tips div li {
+  margin-bottom: 9px;
+  font-size: 12px;
+  letter-spacing: 0.053em;
+  line-height: 3.7ex;
+}
+
+main .content .tips div li:last-child {
+  margin-bottom: 0;
 }
 
 footer {
