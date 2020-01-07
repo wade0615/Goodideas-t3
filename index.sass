@@ -116,8 +116,9 @@ main
         padding: 24px 19px
         background-color: #fff
         .feature
-            // height: 385px
-            margin-bottom: 16px
+            position: relative
+            padding-bottom: 18px
+            margin-bottom: 25px
             h3
                 border-bottom: solid 2px #ADC99B
                 padding: 5px 18px 9px
@@ -127,7 +128,7 @@ main
                 letter-spacing: 0.01em
                 background-color: #DDEAD5
             .case
-                height: 320px
+                // height: 320px
                 margin-right: 20px
                 img
                     width: 100%
@@ -143,6 +144,15 @@ main
                     letter-spacing: 0.02em
             .case:last-child
                 margin: 0
+        .feature:before
+            content: ""
+            position: absolute
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            // background-color: red
+            border-bottom: solid 2px #EBEAE6
         .tips
             height: 200px
 

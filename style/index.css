@@ -160,7 +160,9 @@ main .content {
 }
 
 main .content .feature {
-  margin-bottom: 16px;
+  position: relative;
+  padding-bottom: 18px;
+  margin-bottom: 25px;
 }
 
 main .content .feature h3 {
@@ -174,7 +176,6 @@ main .content .feature h3 {
 }
 
 main .content .feature .case {
-  height: 320px;
   margin-right: 20px;
 }
 
@@ -198,6 +199,16 @@ main .content .feature .case p {
 
 main .content .feature .case:last-child {
   margin: 0;
+}
+
+main .content .feature:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: solid 2px #EBEAE6;
 }
 
 main .content .tips {
