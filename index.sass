@@ -11,7 +11,7 @@ h1,h2,h3,p
 .row
     margin: 0 auto
 
-.col,.col-md,.col-1,.col-2,.col-3,.col-4,.col-md-4,.col-5,.col-6,.col-7,.col-md-7,.col-8,.col-9,.col-10,.col-11
+.col,.col-sm,.col-md,.col-1,.col-2,.col-3,.col-4,.col-sm-4,.col-md-4,.col-5,.col-6,.col-7,.col-md-7,.col-8,.col-9,.col-10,.col-11
     padding: 0
 
 figure
@@ -23,10 +23,6 @@ figure
 
 figure img
     width: 100%
-
-// @mixin col-md
-//   @media (max-width: 767px)
-//     @content
 
 // 在 width 1200px 時 合板
 // 斷點 720px col-md
@@ -66,7 +62,6 @@ header
             background-color: #97B486
 
 main
-    // height: 1205px
     .banner
         position: relative
         height: 412px
@@ -156,11 +151,11 @@ main
             left: 0
             border-bottom: solid 2px #EBEAE6
         .tips
-            // height: 215px
             img
                 width: 100%
+                height: 100%
             div
-                padding-left: 33px
+                padding: 0
                 h3
                     margin-bottom: 28px
                     padding: 4px 17px 9px
@@ -181,9 +176,8 @@ main
                     margin-bottom: 0
 
 footer
-    // height: 165px
     background-color: #DDEAD5
-    .col-md
+    .contact
         padding: 17px 17px 13px
         border-top: solid 1px #C9DCBE
         border-right: solid 1px #C9DCBE
@@ -196,7 +190,7 @@ footer
         font-size: 14px
         line-height: 17px
         color: #A4AAA1
-    .col-md:last-child
+    .contact:last-child
         border-right: none
         p
             margin-bottom: 6px
@@ -207,7 +201,6 @@ footer
         color: #306515
 
 .copyright
-    // height: 35px
     font-size: 13px
     line-height: 32px
     text-align: center
