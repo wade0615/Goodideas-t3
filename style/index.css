@@ -211,9 +211,21 @@ main .content .feature .case {
   margin-right: 20px;
 }
 
+@media (max-width: 575px) {
+  main .content .feature .case {
+    margin: 0;
+  }
+}
+
 main .content .feature .case img {
   width: 100%;
   margin-bottom: 21px;
+}
+
+@media (max-width: 575px) {
+  main .content .feature .case img {
+    margin-bottom: 10px;
+  }
 }
 
 main .content .feature .case h4 {
@@ -227,6 +239,12 @@ main .content .feature .case p {
   font-size: 13px;
   line-height: 1.8em;
   letter-spacing: 0.02em;
+}
+
+@media (max-width: 575px) {
+  main .content .feature .case p {
+    margin-bottom: 10px;
+  }
 }
 
 main .content .feature .case:last-child {
@@ -250,6 +268,12 @@ main .content .tips img {
 
 main .content .tips div {
   padding: 0;
+}
+
+@media (max-width: 575px) {
+  main .content .tips div {
+    margin-bottom: 15px;
+  }
 }
 
 main .content .tips div h3 {
