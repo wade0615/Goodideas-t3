@@ -98,7 +98,7 @@ main .title {
 }
 
 main .title h2 {
-  width: 814px;
+  max-width: 814px;
   margin: 0 auto;
   font-size: 22px;
   letter-spacing: 0.04em;
@@ -107,7 +107,7 @@ main .title h2 {
 }
 
 main .title p {
-  width: 814px;
+  max-width: 814px;
   margin: 0 auto;
   margin-bottom: 8px;
   font-size: 14px;
@@ -169,7 +169,7 @@ main .service h3 {
 
 @media (max-width: 575px) {
   main .service h3 {
-    font-size: 26px;
+    font-size: 19px;
   }
 }
 
@@ -181,7 +181,7 @@ main .service p {
 
 @media (max-width: 575px) {
   main .service p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -201,6 +201,7 @@ main .content .feature h3 {
   padding: 5px 18px 9px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  color: #90705A;
   font-size: 17px;
   letter-spacing: 0.01em;
   background-color: #DDEAD5;
