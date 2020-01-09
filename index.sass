@@ -113,16 +113,26 @@ main
             right: 0
             margin: auto
             border-right: solid 2px rgb(27,119,0)
+            @include rwd-sm
+                border-right: none
         img
             border: solid 2px #ffffff
+            @include rwd-md
+                margin-bottom: 10px
+            @include rwd-sm
+                margin: 0
         h3
             color: #DBDE94
             font-size: 16px
             margin-bottom: 6px
+            @include rwd-sm
+                font-size: 26px
         p
             color: #fff
             font-size: 14px
             line-height: 1.1rem
+            @include rwd-sm
+                font-size: 18px
     .content
         padding: 24px 19px 32px
         background-color: #fff
