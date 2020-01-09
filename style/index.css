@@ -13,10 +13,6 @@ h1, h2, h3, p {
   padding: 0;
 }
 
-.row {
-  margin: 0 auto;
-}
-
 .col, .col-sm, .col-md, .col-1, .col-2, .col-3, .col-4, .col-sm-4, .col-md-4, .col-5, .col-6, .col-7, .col-md-7, .col-8, .col-9, .col-10, .col-11 {
   padding: 0;
 }
@@ -97,11 +93,13 @@ main .banner {
 main .title {
   position: absolute;
   bottom: 0;
+  width: 100%;
   background-color: rgba(74, 74, 74, 0.6);
 }
 
 main .title h2 {
-  padding: 0 20px;
+  width: 814px;
+  margin: 0 auto;
   font-size: 22px;
   letter-spacing: 0.04em;
   color: #DBDE94;
@@ -109,7 +107,9 @@ main .title h2 {
 }
 
 main .title p {
-  padding: 0 18px 8px;
+  width: 814px;
+  margin: 0 auto;
+  margin-bottom: 8px;
   font-size: 14px;
   line-height: 1.9em;
   color: #FFFFFF;
@@ -122,8 +122,7 @@ main .title i {
   background-color: #fff;
 }
 
-main .service > div {
-  position: relative;
+main .service .menu {
   padding: 18px;
 }
 
@@ -266,10 +265,6 @@ main .content .tips img {
   height: 100%;
 }
 
-main .content .tips div {
-  padding: 0;
-}
-
 @media (max-width: 575px) {
   main .content .tips div {
     margin-bottom: 15px;
@@ -303,38 +298,38 @@ main .content .tips div li:last-child {
   margin-bottom: 0;
 }
 
-footer {
+footer.row {
   background-color: #DDEAD5;
 }
 
-footer .contact {
+footer.row .contact {
   padding: 17px 17px 13px;
   border-top: solid 1px #C9DCBE;
   border-right: solid 1px #C9DCBE;
 }
 
-footer h3 {
+footer.row h3 {
   margin-bottom: 11px;
   text-transform: uppercase;
   font-size: 18px;
   color: #828282;
 }
 
-footer p {
+footer.row p {
   font-size: 14px;
   line-height: 17px;
   color: #A4AAA1;
 }
 
-footer .contact:last-child {
+footer.row .contact:last-child {
   border-right: none;
 }
 
-footer .contact:last-child p {
+footer.row .contact:last-child p {
   margin-bottom: 6px;
 }
 
-footer i {
+footer.row i {
   width: 25px;
   vertical-align: middle;
   font-size: 20px;
