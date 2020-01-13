@@ -52,21 +52,21 @@ header .logo {
   }
 }
 
-header .navbar {
+header .my-nav {
   padding: 0;
   background-color: #316615;
 }
 
-header .navbar .navbar-toggler {
+header .my-nav .my-nav-tog {
   background-color: #DBDE94;
 }
 
-header .navbar .navbar-nav {
+header .my-nav .my-navbar {
   width: 100%;
   margin: 0;
 }
 
-header .navbar a {
+header .my-nav a {
   padding: .6rem;
   text-align: center;
   color: #DBEAD1;
@@ -74,12 +74,12 @@ header .navbar a {
   text-decoration: none;
 }
 
-header .navbar a:hover {
+header .my-nav a:hover {
   color: #4A4A4A;
   background-color: #DAEAD1;
 }
 
-header .navbar a:first-child {
+header .my-nav a:first-child {
   color: #5B8446;
   background-color: #97B486;
 }
