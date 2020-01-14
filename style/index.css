@@ -41,7 +41,7 @@ header, main, footer, .copyright {
 }
 
 header h1 {
-  padding: 16px 0;
+  padding: 14px 0;
   text-align: center;
   background-color: #fff;
 }
@@ -344,10 +344,23 @@ footer.row i {
 }
 
 .copyright {
+  padding: 7px;
   font-size: 13px;
-  line-height: 32px;
   text-align: center;
   color: #F8FAF7;
   background-color: #306515;
+}
+
+.reserved {
+  padding-left: 4px;
+  border-left: solid 2px #F8FAF7;
+}
+
+@media (max-width: 575px) {
+  .reserved {
+    display: block;
+    padding: 0;
+    border: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */
