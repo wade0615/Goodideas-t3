@@ -41,7 +41,7 @@ header, main, footer, .copyright {
 }
 
 header h1 {
-  padding: 10px;
+  padding: 16px 0;
   text-align: center;
   background-color: #fff;
 }
@@ -328,11 +328,11 @@ footer.row p {
   color: #A4AAA1;
 }
 
-footer.row .contact:last-child {
+footer.row .contact:nth-child(4) {
   border-right: none;
 }
 
-footer.row .contact:last-child p {
+footer.row .contact:nth-child(4) p {
   margin-bottom: 6px;
 }
 
@@ -348,5 +348,6 @@ footer.row i {
   line-height: 32px;
   text-align: center;
   color: #F8FAF7;
+  background-color: #306515;
 }
 /*# sourceMappingURL=index.css.map */
