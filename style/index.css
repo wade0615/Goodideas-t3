@@ -287,6 +287,7 @@ main .content .feature:before {
 main .content .tips img {
   width: 100%;
   height: 100%;
+  margin-right: 33px;
 }
 
 main .content .tips div {
@@ -305,6 +306,7 @@ main .content .tips div h3 {
   border-bottom: solid 2px #AEC99E;
   color: #90705A;
   font-size: 18px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   background-color: #DDEAD5;
 }
@@ -317,7 +319,7 @@ main .content .tips div ol {
 main .content .tips div li {
   list-style-type: none;
   margin-bottom: 9px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 18px;
   font-size: 12px;
   letter-spacing: 0.053em;
   line-height: 3.7ex;
@@ -327,7 +329,7 @@ main .content .tips div li:before {
   counter-increment: num;
   content: counter(num) ". ";
   position: absolute;
-  margin-left: -20px;
+  margin-left: -18px;
 }
 
 main .content .tips div li:last-child {
