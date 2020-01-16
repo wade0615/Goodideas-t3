@@ -94,6 +94,10 @@ main
             font-size: 14px           
             line-height: 1.9em
             color: #FFFFFF
+            @include rwd-sm
+                text-overflow: ellipsis
+                white-space: nowrap
+                overflow: hidden
         i
             border-radius: 50%
             font-size: 20px

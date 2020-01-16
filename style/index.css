@@ -121,6 +121,14 @@ main .title p {
   color: #FFFFFF;
 }
 
+@media (max-width: 575px) {
+  main .title p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
 main .title i {
   border-radius: 50%;
   font-size: 20px;
