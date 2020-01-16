@@ -47,11 +47,9 @@ header
         text-align: center
         background-color: #fff
     img
-        width: 45%
-        @include rwd-md
-            width: 60%
+        width: 380px
         @include rwd-sm
-            width: 80%
+            width: 250px
 
     .my-nav
         padding: 0
@@ -193,6 +191,8 @@ main
                 width: 100%
                 height: 100%
                 margin-right: 33px
+                @include rwd-sm
+                    margin: 0
             div
                 counter-reset: num
                 @include rwd-sm
