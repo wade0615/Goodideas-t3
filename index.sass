@@ -243,6 +243,13 @@ footer.row
         font-size: 14px
         line-height: 17px
         color: #A4AAA1
+    p
+        @include rwd-md
+            margin-bottom: 10px
+        @include rwd-sm
+            margin-bottom: 5px
+    p:last-child
+        margin-bottom: 0
     .contact:nth-child(4)
         border-right: none
         p,li

@@ -365,6 +365,22 @@ footer.row p, footer.row li {
   color: #A4AAA1;
 }
 
+@media (max-width: 767px) {
+  footer.row p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  footer.row p {
+    margin-bottom: 5px;
+  }
+}
+
+footer.row p:last-child {
+  margin-bottom: 0;
+}
+
 footer.row .contact:nth-child(4) {
   border-right: none;
 }
