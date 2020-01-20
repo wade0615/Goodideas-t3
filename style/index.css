@@ -36,10 +36,6 @@ figure img {
   background-color: #316615;
 }
 
-header, main, footer, .copyright {
-  max-width: 855px;
-}
-
 header h1 {
   padding: 14px 0;
   text-align: center;
@@ -281,7 +277,6 @@ main .content .feature:before {
 }
 
 main .content .tips img {
-  width: 100%;
   height: 100%;
   margin-right: 33px;
 }
