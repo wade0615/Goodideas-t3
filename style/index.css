@@ -262,6 +262,7 @@ main .content .feature .case p {
 @media (max-width: 575px) {
   main .content .feature .case p {
     margin-bottom: 10px;
+    line-height: 1.6em;
   }
 }
 
