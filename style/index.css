@@ -163,17 +163,18 @@ main .service > div:nth-child(1):before, main .service > div:nth-child(2):before
 }
 
 main .service img {
+  width: 100%;
   border: solid 2px #ffffff;
 }
 
 @media (max-width: 767px) {
-  main .service img {
+  main .service .service_img {
     margin-bottom: 10px;
   }
 }
 
 @media (max-width: 575px) {
-  main .service img {
+  main .service .service_img {
     margin: 0;
   }
 }
