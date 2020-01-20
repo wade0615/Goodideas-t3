@@ -56,20 +56,20 @@ header img {
   }
 }
 
-header .my-nav {
+header .cust-nav {
   padding: 0;
 }
 
-header .my-nav .my-nav-tog {
+header .cust-nav .cust-nav-tog {
   background-color: #DBDE94;
 }
 
-header .my-nav .my-navbar {
+header .cust-nav .cust-navbar {
   width: 100%;
   margin: 0;
 }
 
-header .my-nav a {
+header .cust-nav a {
   padding: .6rem;
   text-align: center;
   color: #DBEAD1;
@@ -77,12 +77,12 @@ header .my-nav a {
   text-decoration: none;
 }
 
-header .my-nav a:hover {
+header .cust-nav a:hover {
   color: #4A4A4A;
   background-color: #DAEAD1;
 }
 
-header .my-nav a:first-child {
+header .cust-nav a:first-child {
   color: #5B8446;
   background-color: #97B486;
 }
