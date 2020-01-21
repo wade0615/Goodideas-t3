@@ -326,7 +326,8 @@ main .content .tips div li:before {
   counter-increment: num;
   content: counter(num) ". ";
   position: absolute;
-  margin-left: -18px;
+  -webkit-transform: translateX(-18px);
+          transform: translateX(-18px);
 }
 
 main .content .tips div li:last-child {
