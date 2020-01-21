@@ -339,8 +339,13 @@ footer.row {
 
 footer.row .contact {
   padding: 17px 17px 13px;
-  border-top: solid 1px #C9DCBE;
   border-right: solid 1px #C9DCBE;
+}
+
+@media (max-width: 575px) {
+  footer.row .contact {
+    border-top: solid 1px #C9DCBE;
+  }
 }
 
 footer.row h3 {
